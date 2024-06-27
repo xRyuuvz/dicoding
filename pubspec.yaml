@@ -1,0 +1,40 @@
+name: kantinwisaga1
+description: A new Flutter project.
+
+publish_to: 'none' 
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.6 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  provider: ^6.1.2
+  get: ^4.6.5
+  hexcolor: ^2.0.7
+  http: ^0.13.5
+  image_picker: ^1.0.7
+  permission_handler: ^8.1.6
+  firebase_core: ^2.24.2
+  firebase_auth: ^4.16.0
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+
+flutter:
+  uses-material-design: true
+
+
+  assets:
+    - lib/images/burgers/
+    - lib/images/burgers/bluemoonburger.png
+    - lib/images/pizza/
+    - lib/images/pizza/blackpizza.png
+    - lib/images/pizza/burgerpizza.png
